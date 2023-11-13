@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width:100%;
+    height:100vh;
+    background-color:rgba(13, 12, 12, 0.778);
+    display:flex;
+    justify-content:center;
+    /* align-items: center; */
+
+}
+.card{
+    border-radius: 44px;
+    padding: 48px;
+    width: 23%;
+    height: 70%;
+    background: linear-gradient(135deg, #00feba,#5b548a);
+    margin: 80px;
+}
+.input-container{
+    width: 363px;
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-container input{
+    outline:none;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 38px;
+    width: 241px;
+}
+.input-container i{
+    border-radius: 25px;
+    padding: 13px;
+    /* width: 33px; */
+    font-size: 18px;
+    margin: 19px 9px;
+    color: grey;
+    cursor:pointer;
+    background-color: rgb(248, 244, 244);
+}
+.weather img{
+    height: 144px;
+    width: 144px;
+    padding: 22px 107px;
+}
+.weather h1{
+    padding-left: 108px;
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+}
+.weather h2{
+    padding-left: 108px;
+    font-size: 45px;
+    font-weight:400;
+    color: white;
+    margin-top:-10px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0px;
+}
+.humidity img{
+    width: 40px;
+    margin-right: 10px
+}
+.wind-speed img{
+    width: 40px;
+    margin-right: 10px
+}
+.humid, .wind{
+    font-size:28px;
+    margin-top:6px;
+    color:white;
+}
+.humidity p,.wind-speed p{
+    color:white;
+}
+@media(min-width:334px) and (max-width:1000px){
+    .card{
+        width: 66%;
+    height: 57%;
+    }
+    .main{
+        width: 149%;
+    height: 151vh;
+    }
+    .input-container{
+        width: 364px;
+   
+    height: 79px;
+    }
+    .input-container input{
+        padding: 19px 26px;
+    font-size: 25px;
+    width:245px;
+    }
+    .input-container i{
+        font-size: 27px;
+    }
+    .weather img{
+        height: 145px;
+    width: 144px;
+    padding: 19px 87px
+    }
+    .weather h1{
+        padding-left: 77px;
+    font-size: 82px;
+    font-weight: 500
+    }
+    .weather h2{
+        padding-left: 98px;
+    font-size: 51px;
+    font-weight: 400;
+    color: white;
+    margin-top: 0px;
+    }
+    .end{
+        padding: 51px 0px
+    }
+    .humidity img{
+        width: 59px
+    }
+    .wind-speed img{
+        width: 59px
+    }
+    .humidity p,.wind-speed p{
+        font-size: 25px;
+    }
+}
